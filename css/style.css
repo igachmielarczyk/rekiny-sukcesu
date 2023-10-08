@@ -427,6 +427,11 @@ p {
   }
   .nav .nav-brand {
     height: 47px;
+    width: 138px;
+  }
+  .nav .nav-brand img {
+    height: 47px;
+    width: 138px;
   }
   .sps--blw {
     height: 70px;
