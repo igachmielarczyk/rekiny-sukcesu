@@ -39,6 +39,9 @@
     }
   }
   &:hover {
+    .btn-primary {
+      background-color: $primary;
+    }
     .arrow {
       img {
         padding-left: 15px;

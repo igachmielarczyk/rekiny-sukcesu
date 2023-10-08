@@ -315,6 +315,9 @@ p {
   object-fit: contain;
   transition: all 0.3s linear;
 }
+.btn-arrow:hover .btn-primary {
+  background-color: #3b4bdc;
+}
 .btn-arrow:hover .arrow img {
   padding-left: 15px;
   opacity: 0;
