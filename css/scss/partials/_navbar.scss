@@ -133,7 +133,12 @@
   .nav {
     height: 60px;
     .nav-brand {
+      width: 115px;
       height: 40px;
+      img {
+        width: 115px;
+        height: 40px;
+      }
     }
   }
   .sps--blw {
@@ -151,14 +156,6 @@
 //768px
 @media only screen and (max-width: $md) {
   .nav {
-    .na-brand {
-      width: 115px;
-      height: 40px;
-      img {
-        width: 115px;
-        height: 40px;
-      }
-    }
     .nav-collapse {
       min-height: 100vh;
       transition: all 0.5s linear;
