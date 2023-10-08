@@ -817,6 +817,27 @@ footer {
     }
   }
 }
+
+@media only screen and (max-width: 822px) and (max-height: 440px) {
+  .grid-box {
+    grid-template: auto/1fr 1fr;
+    column-gap: 15px;
+  }  
+  .s-3 {
+    .content {
+      .numbers {
+        flex-direction: row;
+        .item {
+          margin-bottom: 0;
+          .bottom {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  
+}
 //576px
 @media only screen and (max-width: $sm) {
   .section {

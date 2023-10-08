@@ -1239,6 +1239,21 @@ footer .content .info:nth-child(2) {
     font-size: 0.625rem;
   }
 }
+@media only screen and (max-width: 822px) and (max-height: 440px) {
+  .grid-box {
+    grid-template: auto/1fr 1fr;
+    column-gap: 15px;
+  }
+  .s-3 .content .numbers {
+    flex-direction: row;
+  }
+  .s-3 .content .numbers .item {
+    margin-bottom: 0;
+  }
+  .s-3 .content .numbers .item .bottom {
+    font-size: 1rem;
+  }
+}
 @media only screen and (max-width: 575.98px) {
   .section.s-1 .container {
     padding-bottom: 30px;
